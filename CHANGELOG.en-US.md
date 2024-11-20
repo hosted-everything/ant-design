@@ -15,6 +15,33 @@ tag: vVERSION
 
 ---
 
+## 5.22.2
+
+`2024-11-19`
+
+- 🐞 Fix Input.OTP focus from advancing when previous input is empty. [#51664](https://github.com/ant-design/ant-design/pull/51664) [@thecodesalim](https://github.com/thecodesalim)
+- 🐞 Adjust Modal function call not to scroll the confirm button when it get auto focused. [#51647](https://github.com/ant-design/ant-design/pull/51647) [@zombieJ](https://github.com/zombieJ)
+- 🐞 Fix Form `rules` with same error content will cause React render warning. [#51636](https://github.com/ant-design/ant-design/pull/51636) [@zombieJ](https://github.com/zombieJ)
+- 🐞 Refactor Button `focus` logic trigger with `useEffect` to resolve some async load case not get `autoFocus`. [#51624](https://github.com/ant-design/ant-design/pull/51624) [@zombieJ](https://github.com/zombieJ)
+- 🐞 Fix Button custom icon not center-aligned. [#51652](https://github.com/ant-design/ant-design/pull/51652) [@afc163](https://github.com/afc163)
+- 🐞 Fix Table `getCheckboxProps` event handlers being overridden by internal selection logic. [#51661](https://github.com/ant-design/ant-design/pull/51661) [@Zyf665](https://github.com/Zyf665)
+- 🐞 Fix Tree that `onCheck` and `onSelect` were not properly triggered. [#51448](https://github.com/ant-design/ant-design/pull/51448) [@Wxh16144](https://github.com/Wxh16144)
+- 🌐 Localization
+  - 🇷🇺 Add support for Russian translation. [#51619](https://github.com/ant-design/ant-design/pull/51619) [@avvakumovid](https://github.com/avvakumovid)
+  - 🇮🇹 Add support for Italian translation in TimePicker. [#51685](https://github.com/ant-design/ant-design/pull/51685) [@LorenzoCardinali](https://github.com/LorenzoCardinali)
+
+## 5.22.1
+
+`2024-11-13`
+
+- 🛠 Adjust DatePicker.RangePicker to not allow switching to the next field by clicking the input when `needConfirm` and the user has not submitted the date. [#51591](https://github.com/ant-design/ant-design/pull/51591) [@zombieJ](https://github.com/zombieJ)
+- 🛠 Lock Input.OTP `ctrl + z` operation to avoid data not correct. [#51609](https://github.com/ant-design/ant-design/pull/51609) [@zombieJ](https://github.com/zombieJ)
+- 🐞 Fix Select `tags` or `multiple` mode display issue. [#51605](https://github.com/ant-design/ant-design/pull/51605) [@guoyunhe](https://github.com/guoyunhe)
+- 🐞 Fix Badge `count` motion missing in Safari. [#51598](https://github.com/ant-design/ant-design/pull/51598) [@zombieJ](https://github.com/zombieJ)
+- 🐞 Fix Tabs with `centered` the tabs can not fully display. [#51571](https://github.com/ant-design/ant-design/pull/51571) [@DDDDD12138](https://github.com/DDDDD12138)
+- 🐞 Fix Transfer with controlled `dataSource` & `selectedKeys` sometime miss sync checked state. [#51523](https://github.com/ant-design/ant-design/pull/51523) [@IsKaros](https://github.com/IsKaros)
+- 🐞 Revert Button `display` `inline-flex` back to `inline-block` to resolve Icon align issue. [#51588](https://github.com/ant-design/ant-design/pull/51588) [@Wxh16144](https://github.com/Wxh16144)
+
 ## 5.22.0
 
 `2024-11-12`
